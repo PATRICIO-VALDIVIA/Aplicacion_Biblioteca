@@ -53,6 +53,15 @@ public class Github_act extends AppCompatActivity {
                 if (productos.equals("El Alquimista")) {
                     edition.setText("El valor de El Alquimista es: " + precio.getEl_Alquimista());
                 }
+                //comandos de los nuevos libros
+                if (productos.equals("El Poder")) {
+                    edition.setText("El valor de El Poder es: " + precio.getEl_Poder());
+                }
+                if (productos.equals("Despertar")) {
+                    edition.setText("El valor de Despertar es: " + precio.getDespertar());
+                }
+
+
 
             }
         });

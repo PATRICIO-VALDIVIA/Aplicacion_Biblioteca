@@ -37,6 +37,11 @@ public class MainActivity extends AppCompatActivity {
                 productos.add("Revival");
                 productos.add("El Alquimista");
 
+                //Libros Nuevos
+                productos.add("El Poder");
+                productos.add("Despertar");
+
+
                 Intent hello = new Intent( MainActivity.this,  Github_act.class);
                 hello.putExtra("listado", productos);
                 startActivity(hello);
